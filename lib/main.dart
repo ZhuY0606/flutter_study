@@ -101,10 +101,10 @@ class _MyHomePageState extends State<MyHomePage> {
   _itemWidgetClick(_MyDemoWidgetType type) {
     switch (type) {
       case _MyDemoWidgetType.callbackDemo:
-        RouteUtlis.openCallBackView(context: context);
+        RouteUtils.openCallBackView(context: context);
         break;
       case _MyDemoWidgetType.providerDemo:
-        RouteUtlis.openCallBackView(context: context);
+        RouteUtils.openCallBackView(context: context);
         break;
       default:
         break;

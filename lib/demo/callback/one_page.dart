@@ -23,7 +23,7 @@ class _OneViewViewState extends State<OneView> {
     return Container(
       child: GestureDetector(
         onTap: () {
-          RouteUtlis.openTwoView(
+          RouteUtils.openTwoView(
               context: context,
               onComplete: (str) {
                 callBackStr = str;
